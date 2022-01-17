@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { ElementType } from "react";
 import { FlexProps } from "../Box";
 
 export type SubMenuItemsType = {
   label: string;
   href: string;
-  iconName?: string;
+  icon?: ElementType<any>;
   isMobileOnly?: boolean;
 };
 
